@@ -32,12 +32,11 @@ export default class HeroRepository {
     }
 }
 
+/*para testar o repositorio
 const heroRepository = new HeroRepository({
-    file: './database/data.json'
+    file: '../database/data.json'
 });
 
-/*
-para testar o repositorio
 console.log(
     await heroRepository.create({
         id: 134234,
